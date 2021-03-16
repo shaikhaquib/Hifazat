@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardCornerRadius="4dp"
+    app:cardBackgroundColor="#f44336"
+    android:id="@+id/card"
+    android:layout_margin="@dimen/_8dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/_8dp"
+        android:orientation="horizontal">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="4dp"
+            android:layout_weight="2">
+
+            <TextView
+                android:id="@+id/txtIcon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="हिं"
+                android:maxLines="1"
+                android:gravity="center"
+                android:layout_centerHorizontal="true"
+                android:paddingRight="8dp"
+                android:paddingTop="4dp"
+                android:paddingBottom="4dp"
+                android:paddingLeft="8dp"
+                android:textSize="16sp"
+                android:textColor="#f44336"
+                android:backgroundTint="@android:color/white"
+                android:background="@drawable/circle"/>
+
+        </RelativeLayout>
+        <TextView
+            android:id="@+id/txtDisplayName"
+            android:layout_weight="7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:maxLines="1"
+            android:gravity="center"
+            android:textColor="@android:color/white"
+            android:text="हिंदी"/>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

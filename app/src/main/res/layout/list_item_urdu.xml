@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:clickable="true"
+    app:rippleColor="@android:color/darker_gray"
+    android:padding="0dp">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:padding="0dp">
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginRight="11dp"
+            android:paddingBottom="0dp"
+            android:padding="@dimen/_8dp"
+            android:textSize="18sp"
+            android:fontFamily="@font/urdu"
+            android:drawableRight="@drawable/iconsmall"
+            android:text="Muharamul H"
+            android:drawablePadding="@dimen/_8dp"
+            android:textColor="#000000" />
+    </RelativeLayout>
+</com.google.android.material.card.MaterialCardView>
